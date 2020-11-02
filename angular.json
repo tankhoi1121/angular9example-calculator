@@ -62,7 +62,8 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "angular9example-calculator:build"
+            "browserTarget": "angular9example-calculator:build",
+            "proxyConfig": "src/proxy.conf.json"
           },
           "configurations": {
             "production": {
