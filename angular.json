@@ -118,8 +118,13 @@
               "devServerTarget": "angular9example-calculator:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "angular9example-calculator"
 }
